@@ -7,7 +7,7 @@ var newP = document.createElement ("p")
 newP.textContent = " All of this was created with Javascript "
 newP.style.textAlign = "center"
 document.body.append(newP)
-newP.style.fontSize = "10px"
+newP.style.fontSize = "20px"
 
 var newLi = document.createElement ( "li" )
 newLi.textContent = "This"
