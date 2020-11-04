@@ -9,9 +9,17 @@ newP.style.textAlign = "center"
 document.body.append(newP)
 newP.style.fontSize = "20px"
 
-var newLi = document.createElement ( "li" )
-newLi.textContent = "This"
-var myList = document.getElementById ( "list" )
-myList.prepend ( newLi )
-document.body.style.textAlign = "center"
+var ol = document.createElement("ol");
+ol.textContent = "JS List";
+ol.style.paddingRight = "40px";
+document.body.append(ol);
+
+var newLi = document.createElement ( "li" );
+newLi.textContent = "This is ";
+var newLi1 = document.createElement ( "li" );
+newLi1.textContent = "Awesome";
+document.body.style.textAlign = "center";
 document.body.style.listStyle = "decimal inside";
+
+ol.append(newLi);
+ol.append(newLi1); 
