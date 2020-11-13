@@ -1,3 +1,4 @@
+document.body.style.padding = "400px";
 var button = document.createElement("button");
 button.innerHTML = "I am a Button of Colors";
 
@@ -35,11 +36,9 @@ button.addEventListener("dblclick", function() {
 
 // Orange when the mouse scroll is used somewhere in the window 
 
-var scroll = document.getElementsByTagName ("body")[0];
-body.appendChild(button);
-button.addEventListener("scroll", function() {
+window.addEventListener("scroll", event => {
     document.body.style.backgroundColor = "orange";
-});
+})
 
 //Keyboard Key Codes
 
