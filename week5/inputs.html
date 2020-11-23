@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="inputs.css"/>
+
+        <body>
+            <form id ="form" action="">
+                <h1 id="title">Your Destination Awaits! Fly Today with Venom Airline!</h1>
+
+                <label for= "fname">First Name: <input type = "text" id="fname" size="30" name = "fname1" required></lable><br><br>
+                <label for= "lname">Last Name: <input type = "text" id="lname" size="30" name = "lname1" required></label><br><br>
+                <label for= "age">Age: <input type = "text" size="30" id="age" name = "age1" required></label><br><br>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                
+                <label for="destination">Choose your destination:</label>
+                <select name="flight" id="flight">
+                    <option value="blank" id="blank"></option>
+                    <option value="europe" id="europe">Europe</option>
+                    <option value="spain" id="spain">Spain</option>
+                    <option value="pr" id="pr">Puerto Rico</option>
+                    <option value="ecuador" id="ecuador">Ecuador</option>
+                </select>
+
+
+                <h4 id="diet">Any Dietary Restrictions? Please choose all that apply.</h4>
+                <input type="checkbox" id="vegan" name="vegan" value="dietary">
+                <label for="vegan">Vegetarian</label>
+                <input type="checkbox" id="pnut" name="pnut" value="dietary">
+                <label for="pnut">Peanut Allergy</label><br>
+                <input type="checkbox" id="gfree" name="gfree" value="dietary">
+                <label for="gfree">Gluten Free</label><br><br>
+                
+                <input type ="submit" id="submit" value = "Submit">
+                <input type ="reset" id="reset" value = "Reset">
+            </form>  
+
+        
+
+            <script src="inputs.js"></script>
+        </body>
+
+    </head> 
+
+
+</html>
