@@ -1,8 +1,3 @@
-/* var submit = document.getElementById("submit");
-var name = document.getElementById("name");
-var email = document.getElementById("email");
-var num = document.getElementById("num"); */
-
 
 submit.addEventListener("click", function(){
     var submit = document.getElementById("submit");
